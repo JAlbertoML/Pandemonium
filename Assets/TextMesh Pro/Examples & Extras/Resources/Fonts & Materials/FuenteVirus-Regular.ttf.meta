@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: d2b76fce40e58afe4a782724833111c5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fuente Virus
+  fontNames:
+  - Fuente Virus
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e039726a3021dbcefad860eb5f5d4ef9, type: 3}
+  - {fileID: 12800000, guid: 8124706dd485c3e46a2d9147fdb43340, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SonidoHover.cs">
+    <Files>
+      <File FileName="Assets/Scripts/StartGame.cs" Line="10" Column="46" />
+      <File FileName="Assets/Scripts/AbrirPuertas.cs" Line="39" Column="46" />
+      <File FileName="Assets/Scripts/Menus.cs" Line="32" Column="32" />
+      <File FileName="Assets/Scripts/SelecLev.cs" Line="36" Column="47" />
+      <File FileName="Assets/Scripts/SonidoHover.cs" Line="18" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pandemonium" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="SonidoHover.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
