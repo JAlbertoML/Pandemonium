@@ -64,7 +64,9 @@
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\MoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\AbrirPuertas.cs" />
      <Compile Include="Assets\Scripts\BotonRegreso.cs" />
+     <Compile Include="Assets\Scripts\CambiarInstruccion.cs" />
      <Compile Include="Assets\Scripts\Menus.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\SelecLev.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

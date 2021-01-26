@@ -14,22 +14,22 @@ public class Menus : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("EscenaPrincipal");
+        SceneManager.LoadScene("EscenaPrincipal", LoadSceneMode.Single);
     }
 
     public void SelecLevel()
     {
-        SceneManager.LoadScene("SelectLevel");
+        SceneManager.LoadScene("SelectLevel", LoadSceneMode.Single);
     }
 
     public void GameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
     }
 
     public void Creditos()
     {
-        SceneManager.LoadScene("Creditos");
+        SceneManager.LoadScene("Creditos", LoadSceneMode.Single);
     }
 
     public void Exit()

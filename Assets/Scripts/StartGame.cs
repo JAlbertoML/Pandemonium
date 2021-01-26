@@ -7,7 +7,7 @@ public class StartGame : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other) { 
         if(other.collider.tag == "Puerta"){
-            SceneManager.LoadScene("Nivel1");
+            SceneManager.LoadScene("Nivel1", LoadSceneMode.Single);
         }
     }
 }

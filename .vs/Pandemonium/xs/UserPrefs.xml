@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SonidoHover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CambiarInstruccion.cs">
     <Files>
-      <File FileName="Assets/Scripts/StartGame.cs" Line="10" Column="46" />
-      <File FileName="Assets/Scripts/AbrirPuertas.cs" Line="39" Column="46" />
-      <File FileName="Assets/Scripts/Menus.cs" Line="32" Column="32" />
-      <File FileName="Assets/Scripts/SelecLev.cs" Line="36" Column="47" />
-      <File FileName="Assets/Scripts/SonidoHover.cs" Line="18" Column="28" />
+      <File FileName="Assets/Scripts/StartGame.cs" Line="10" Column="66" />
+      <File FileName="Assets/Scripts/AbrirPuertas.cs" Line="22" Column="5" />
+      <File FileName="Assets/Scripts/Menus.cs" Line="17" Column="71" />
+      <File FileName="Assets/Scripts/SelecLev.cs" Line="31" Column="64" />
+      <File FileName="Assets/Scripts/Pause.cs" Line="18" Column="88" />
+      <File FileName="Assets/Scripts/CambiarInstruccion.cs" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Assets" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="SonidoHover.cs" selected="True" />
+                  <Node name="CambiarInstruccion.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
