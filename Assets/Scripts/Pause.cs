@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
-    private Canvas canvas;
+    private static Canvas canvas;
     private bool isPaused = false;
     private new AudioSource audio;
-    private ThirdPersonOrbitCamBasic cam;
+    private static ThirdPersonOrbitCamBasic cam;
 
     void Start()
     {
@@ -16,6 +16,7 @@ public class Pause : MonoBehaviour
         canvas.enabled = false;
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ThirdPersonOrbitCamBasic>();
         audio = GameObject.FindGameObjectWithTag("Musica").GetComponent<AudioSource>();
+        cam.enabled = true;
     }
 
     void Update()
@@ -48,6 +49,19 @@ public class Pause : MonoBehaviour
 
     public void GoToMenu()
     {
+        ReestablecerVariables();
+        GameOver.ReestablecerVariables();
+        TrampasAplastantes.ReestablecerVariables();
+        CambiarInstruccion.ReestablecerVariables();
+        AbrirPuertas.ReestablecerVariables();
+        AbrirPuertaSecundaria.ReestablecerVariables();
         SceneManager.LoadScene("EscenaStart", LoadSceneMode.Single);
+    }
+
+    public static void ReestablecerVariables()
+    {
+        canvas.enabled = false;
+        Time.timeScale = 1f;
+        cam.enabled = true;
     }
 }
